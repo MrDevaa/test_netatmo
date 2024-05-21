@@ -7,7 +7,7 @@ Installation
 Pour installer ce projet sur votre machine locale, suivez les étapes ci-dessous :
 
 1.Clonez le dépôt :
-git clone https://github.com/votre_nom_d_utilisateur/useCardsTest.git
+git clone https://github.com/MrDevaa/test_netatmo.git
 
 2. Naviguez dans le répertoire du projet :
 cd useCardsTest
