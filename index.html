@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Cards Test</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <h1>User Cards Test</h1>
+        <button id="add-users-btn">Ajouter 10 personnes</button> 
+        <div id="gender-filter">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Hommes</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Femmes</label>
+            <input type="radio" id="all" name="gender" value="all" checked>
+            <label for="all">Tous</label>
+        </div>
+
+        <button id="sort-by-dob-btn">Trier par date de naissance</button>
+    </header>
+    <main>
+        <section id="user-cards">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 User Cards Test</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
